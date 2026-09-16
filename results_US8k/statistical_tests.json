@@ -1,0 +1,77 @@
+{
+  "mcnemar": {
+    "Choquet vs HTS-AT": {
+      "chi2": 430.2987,
+      "p_value": 0.0,
+      "b (Choquet>)": 627,
+      "c (HTS-AT>)": 76
+    },
+    "Choquet vs CNN14": {
+      "chi2": 538.9176,
+      "p_value": 0.0,
+      "b (Choquet>)": 789,
+      "c (CNN14>)": 97
+    },
+    "HTS-AT vs CNN14": {
+      "chi2": 24.2875,
+      "p_value": 1e-06,
+      "b (HTS-AT>)": 474,
+      "c (CNN14>)": 333
+    }
+  },
+  "cochrans_q": {
+    "Q": 669.7379,
+    "p_value": 0.0,
+    "df": 2
+  },
+  "wilcoxon": {
+    "Choquet vs HTS-AT": {
+      "W": 0.0,
+      "p_value": 0.001953
+    },
+    "Choquet vs CNN14": {
+      "W": 0.0,
+      "p_value": 0.001953
+    },
+    "HTS-AT vs CNN14": {
+      "W": 13.0,
+      "p_value": 0.160156
+    }
+  },
+  "paired_ttest": {
+    "Choquet vs HTS-AT": {
+      "t": 6.1688,
+      "p_value": 0.000165
+    },
+    "Choquet vs CNN14": {
+      "t": 6.7821,
+      "p_value": 8.1e-05
+    },
+    "HTS-AT vs CNN14": {
+      "t": 1.6259,
+      "p_value": 0.138425
+    }
+  },
+  "cohens_d": {
+    "Choquet vs HTS-AT": 1.9507,
+    "Choquet vs CNN14": 2.1447,
+    "HTS-AT vs CNN14": 0.5141
+  },
+  "bootstrap_ci": {
+    "Choquet vs HTS-AT": {
+      "mean_diff": 6.316,
+      "CI_lower": 5.738,
+      "CI_upper": 6.894
+    },
+    "Choquet vs CNN14": {
+      "mean_diff": 7.925,
+      "CI_lower": 7.284,
+      "CI_upper": 8.578
+    },
+    "HTS-AT vs CNN14": {
+      "mean_diff": 1.609,
+      "CI_lower": 0.962,
+      "CI_upper": 2.256
+    }
+  }
+}

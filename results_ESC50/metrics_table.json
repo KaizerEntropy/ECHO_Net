@@ -1,0 +1,50 @@
+{
+  "CNN14 (Local)": {
+    "Top-1 Acc": 0.9605,
+    "Top-3 Acc": 0.994,
+    "Top-5 Acc": 0.997,
+    "Balanced Acc": 0.9605,
+    "F1 (Macro)": 0.9601165889701875,
+    "F1 (Weighted)": 0.9601165889701877,
+    "Precision (Macro)": 0.9618151898781463,
+    "Precision (Weighted)": 0.9618151898781464,
+    "Recall (Macro)": 0.9605,
+    "Recall (Weighted)": 0.9605,
+    "AUC-ROC (OvR)": 0.9993071428571428,
+    "AUC-ROC (OvO)": 0.9993071428571427,
+    "Cohen's Kappa": 0.9596938775510204,
+    "Log Loss (NLL)": 0.17449830743375758
+  },
+  "HTS-AT (Global)": {
+    "Top-1 Acc": 0.9705,
+    "Top-3 Acc": 0.9925,
+    "Top-5 Acc": 0.9965,
+    "Balanced Acc": 0.9705000000000001,
+    "F1 (Macro)": 0.9699816172384502,
+    "F1 (Weighted)": 0.9699816172384503,
+    "Precision (Macro)": 0.97118693304116,
+    "Precision (Weighted)": 0.97118693304116,
+    "Recall (Macro)": 0.9705000000000001,
+    "Recall (Weighted)": 0.9685,
+    "AUC-ROC (OvR)": 0.9992395408163265,
+    "AUC-ROC (OvO)": 0.9992395408163266,
+    "Cohen's Kappa": 0.9678571428571429,
+    "Log Loss (NLL)": 0.19886209191125762
+  },
+  "Choquet Fusion": {
+    "Top-1 Acc": 0.978,
+    "Top-3 Acc": 0.997,
+    "Top-5 Acc": 0.998,
+    "Balanced Acc": 0.9780000000000001,
+    "F1 (Macro)": 0.9778175666958401,
+    "F1 (Weighted)": 0.9778175666958401,
+    "Precision (Macro)": 0.9787551247086428,
+    "Precision (Weighted)": 0.9787551247086429,
+    "Recall (Macro)": 0.9780000000000001,
+    "Recall (Weighted)": 0.978,
+    "AUC-ROC (OvR)": 0.9996502551020408,
+    "AUC-ROC (OvO)": 0.999650255102041,
+    "Cohen's Kappa": 0.9775510204081632,
+    "Log Loss (NLL)": 0.12188946201750545
+  }
+}
